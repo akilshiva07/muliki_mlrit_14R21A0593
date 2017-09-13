@@ -25,18 +25,19 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public Student[] getStudents() {
-		student[]=getStudents.length();
+	      
+	  
 		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		// Add your implementation here
+		
 	}
 
 	@Override
 	public Student getStudent(int index) {
-		// Add your implementation here
+		this.students = new Student[index];
 		return null;
 	}
 
